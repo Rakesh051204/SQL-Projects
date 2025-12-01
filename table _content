@@ -1,0 +1,24 @@
+sql_project/
+│
+├── README.md
+├── requirements.txt
+├── schema/
+│   ├── 01_tables.sql
+│   ├── 02_constraints.sql
+│   ├── 03_indexes.sql
+│   └── 04_seed_data.sql
+│
+├── scripts/
+│   ├── backup.sql
+│   ├── restore.sql
+│   └── maintenance.sql
+│
+├── queries/
+│   ├── select_queries.sql
+│   ├── update_queries.sql
+│   ├── insert_queries.sql
+│   └── delete_queries.sql
+│
+└── tests/
+    ├── test_data.sql
+    └── test_queries.sql
